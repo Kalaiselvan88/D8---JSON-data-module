@@ -12,9 +12,9 @@ This module needs to alter the existing Drupal "Site Information" form. Specific
 * This module also provides a URL that responds with a JSON representation of a given node with the content type "page" only if the previously submitted API Key and a node id (nid) of an appropriate node are present, otherwise it will respond with "access denied".
 
 # References
-https://www.drupal.org/docs/8/api/routing-system/structure-of-routes
-https://symfonycasts.com/screencast/drupal8-under-the-hood/get-service-from-container
-https://api.drupal.org/api/drupal/services/8.7.x
+* https://www.drupal.org/docs/8/api/routing-system/structure-of-routes
+* https://symfonycasts.com/screencast/drupal8-under-the-hood/get-service-from-container
+* https://api.drupal.org/api/drupal/services/8.7.x
 
 # Time Taken
 5 hours
