@@ -10,5 +10,5 @@
  */
 function json_data_uninstall() {
   // Delete API key on un-install of the module
-  \Drupal::configFactory()->getEditable('system.site')->clear('siteapikey')->save();;
+  \Drupal::configFactory()->getEditable('system.site')->clear('siteapikey')->save();
 }
