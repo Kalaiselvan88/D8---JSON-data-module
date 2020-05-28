@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Update functions for the Serialization module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function json_data_uninstall() {
+  // Delete API key on un-install of the module
+  \Drupal::configFactory()->getEditable('system.site')->clear('siteapikey')->save();;
+}

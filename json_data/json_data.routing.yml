@@ -1,0 +1,7 @@
+json_data.content:
+  path: '/page_json/{apikey}/{nid}'
+  defaults:
+    _controller: '\Drupal\json_data\Controller\JsonController::content'
+    _title: 'JSON data'
+  requirements:
+    _custom_access: '\Drupal\json_data\Controller\JsonController::access'

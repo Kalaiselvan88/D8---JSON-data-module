@@ -1,0 +1,9 @@
+name: JSON data
+description: Custom module to export page as JSON
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - serialization:serialization

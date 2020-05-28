@@ -1,0 +1,6 @@
+# Add config variables for the API key
+system.site:
+  mapping:
+    siteapikey:
+      type: label
+      label: 'Site API Key'
